@@ -17,7 +17,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class WebLogicAspect {
 
-    @Pointcut("execution(public * com.classs.usercenter.controller..*(..)) && @annotation(org.springframework.web" +
+    @Pointcut("execution(public * com.gaofeng.usercenter.controller..*(..)) && @annotation(org.springframework.web" +
             ".bind.annotation.RequestMapping)")
     public void weblogic() {
     }
